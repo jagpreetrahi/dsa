@@ -1,3 +1,11 @@
+/* Insertion sort is a sorting algorithm that perform better on small datasets.
+
+  How it works -> Select an element in each iteration from the unsorted array and places to its appropriate posotion.
+    
+    Time Complexity -> average or worst -> O(n^2) and best case -> O(n) if array is already sorted.
+    Space Complexity ->  O(1)                         
+                
+*/
 #include <iostream>
 using namespace std;
 
