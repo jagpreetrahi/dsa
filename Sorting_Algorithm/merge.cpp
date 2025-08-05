@@ -1,3 +1,17 @@
+/* Merge Sort is a recursive algorithm that uses the divide and conqueror method to sort the list with efficieny
+
+  How it works -> 1. Divide the array in half 
+        2 . Repeat until the array is divided into n singular block means a single element.
+        3. Merge each subarray using sort
+        4. Repeat the process until the entire array is sorted.
+    
+    Time Complexity -> o(logn) - due to divide the array into sub array.
+        O(n) due to merging the blocks
+        Total TC -> O(n logn)
+    Space Complexity ->  O(n) because it requires to be made where the elements becomes sorted.                               
+                
+*/
+
 #include <iostream>
 #include <vector>
 using namespace std;
