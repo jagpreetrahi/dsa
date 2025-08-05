@@ -1,3 +1,13 @@
+/* Bubble sort is a sorting algorithm that compare the adjacent elements & swap them if they are in wrong order. It requires
+ the multiple passess 
+
+  How it works -> Compare the adjacent element.
+     Swap them if they are in wrong order.
+     After each pass, the largest bubble up to its end.
+    Time Complexity -> average or worst -> O(n^2) and best case -> O(n) if array is already sorted.
+    Space Complexity ->  O(1)                         
+                
+*/
 #include<iostream>
 using namespace std;
 
