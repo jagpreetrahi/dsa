@@ -1,3 +1,10 @@
+/* In this algorithm , we use recursive appraoch in order to sort the unsorted array into sorted one instead of using the 
+  iteration approach. 
+  How it works ->  recursively call the function by increase the i pointer and decrease the j pointer to places the current elment to is left side.
+
+    Time Complexity -> average or worst -> O(n^2) and best case -> O(n) if array is already sorted.
+    Space Complexity ->  O(n) due to the recursion stack    
+*/
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -17,7 +24,7 @@ void InsertionSort(vector<int> & arr, int size, int i){
 
 vector<int> recursiveInsertionSort(vector <int> &arr, int size){
 
-    int i = 0; // for iterate through the undorted array
+    int i = 0; // for iterate through the unsorted array
     InsertionSort(arr, size, i);
     return arr;
 

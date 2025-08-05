@@ -1,3 +1,14 @@
+/* Selection sort is a sorting algorithm that repeatedly select the min-element of the array and moves to the beginning
+
+  How it works -> 1. Start from the first element.
+     2. Find the minimum element in the unsorted part.
+     3. Swap it with the current element.
+     4. Moves to the next positon and repeat the process agian until the array is sorted
+    
+    Time Complexity -> best or average or worst -> O(n^2) for worst case - it still check all elemens to find minimum
+    Space Complexity ->  O(1)                         
+                
+*/
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,10 @@
+/* In this algorithm , we use recursive appraoch in order to sort the unsorted array into sorted one instead of using the 
+  iteration approach. 
+  How it works ->  it recursively call the fucntion by decreasing the size of the array and sort them to its correct postion.
+
+    Time Complexity -> average or worst -> O(n^2) and best case -> O(n) if array is already sorted.
+    Space Complexity ->  O(n) due to the recursion stack.    
+*/
 #include<iostream>
 
 using namespace std;
